@@ -1,0 +1,57 @@
+/* Task 1 */
+
+.progressBar {
+    text-align: center;
+    background-color: white;
+}
+
+.border {
+    margin: 0 auto;
+    width: 700px;
+    height: 100px;
+    border: 5px solid orange;
+}
+
+.box {
+    background-color: orange;
+    width: 0px;
+    height: 100px;
+    animation: go 2s linear 0s infinite none;
+}
+
+@keyframes go {
+    20% {
+        transform: translateX(0);
+        width: 100px;
+    }
+
+    80% {
+        transform: translateX(600px);
+        width: 100px;
+    }
+
+    100% {
+        transform: translateX(700px);
+        width: 0px;
+    }
+}
+
+/* End of Task 1 */
+
+/* Task 2 */
+.heart {
+    text-align: center;
+}
+
+.image {
+    filter: grayscale(100%);
+    width: 200px;
+    transition: all 5s;
+}
+
+.image:hover {
+    filter: grayscale(0);
+    width: 500px;
+}
+
+/* End of Task 2 */

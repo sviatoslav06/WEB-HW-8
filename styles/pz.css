@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfad3;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.images {
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+#calc {
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 200px;
+    rotate: -45deg;
+    animation: go 2s linear 0s forwards;
+}
+
+#book {
+    margin-left: 650px;
+    margin-top: 100px;
+    width: 300px;
+    rotate: -15deg;
+    animation: go 2s linear 0s forwards;
+}
+
+#paper {
+    margin-left: 950px;
+    margin-top: 100px;
+    width: 300px;
+    rotate: 15deg;
+    animation: go 2s linear 0s forwards;
+}
+
+#pallete {
+    margin-left: 1250px;
+    margin-top: 200px;
+    width: 200px;
+    rotate: -140deg;
+    animation: go 2s linear 0s forwards;
+}
+
+#pencil {
+    margin-left: 850px;
+    margin-top: 500px;
+    width: 200px;
+    rotate: 90deg;
+    animation: go 2s linear 0s forwards;
+}
+
+@keyframes go {
+    0% {
+        margin-top: 1000px;
+    }
+}
